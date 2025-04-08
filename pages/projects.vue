@@ -22,7 +22,7 @@
     </div>
    
     <div class="mt-12 -mb-18">
-        <Typewriter phrase="Passion Project" :typo="true" :restart="true"  class="min-h-[10rem] page-title text-center" />
+        <Typewriter phrase="Passion Project" :typo="true" :restart="true"  class="min-h-[10rem] page-title !text-[220%] text-center" />
     </div>
     <div class="w-screen overflow-hidden relative">
       <div class="animate-scroll-left-infinite flex gap-4 w-max">
