@@ -34,11 +34,11 @@ onMounted(() => {
 <template>
   <div id="about" ref="aboutSection" class="min-h-screen w-screen bg-slate-100">
     <div class="grid grid-cols-2 lg:grid-cols-3">
-      <div class="col-span-3 h-[10rem] ml-10">
+      <div class="col-span-3 h-[10rem] ml-6">
         <div class="about-text">About</div>
       </div>
       <div
-        class="col-span-1 bg-blue-300 w-fit pr-12 lg:pr-36 about-text ml-10 md:mt-8"
+        class="col-span-1 bg-blue-300 w-fit pr-12 lg:pr-36 about-text ml-6 md:mt-8"
       >
         me
       </div>
