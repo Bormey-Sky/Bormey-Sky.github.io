@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+
+
+.name-popup {
+  @apply absolute italic font-light text-[rgb(67,67,67)];
+}
+
+.navbar-text {
+  @apply text-lg font-bold text-[rgb(144,144,144)];
+}
+
+.page-title {
+  @apply text-[300%] font-bold font-mono text-[rgb(104,104,104)];
+}
+
+.page-title-i {
+  @apply text-[100%] font-bold italic font-mono text-[rgb(144,144,144)];
+}
+
+.page-description {
+  @apply text-[150%] font-medium font-mono text-[rgb(111,111,111)];
+}
+
+.about-text {
+  @apply text-left text-[8rem] md:text-[10rem] font-bold tracking-wide font-mono text-[rgb(77,77,77)] 
+}
+
