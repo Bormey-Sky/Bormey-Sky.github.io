@@ -42,7 +42,7 @@ onMounted(() => {
       >
         me
       </div>
-      <div class="cols-span-3 md:mt-36 -ml-4 mt-30 mr-12">
+      <div class="cols-span-3 md:mt-36 -ml-4 mt-30 mr-10">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -57,13 +57,13 @@ onMounted(() => {
     </div>
 
     <div
-      class="relative -mt-24  bottom-[5rem] left-1/2 -translate-x-1/2 flex transition-all duration-1000 animate-float-in-bottom"
+      class="relative -mt-24 -ml-8 bottom-[5rem] left-1/2 -translate-x-1/2 flex transition-all duration-1000 animate-float-in-bottom"
       :class="
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-[5%] opacity-0'
       "
     >
       <!-- Face -->
-      <NuxtImg :src="activeFace" class="h-[20rem]" />
+      <NuxtImg :src="activeFace" class="h-[20rem] " />
 
       <!-- Blue div ledge -->
       <div
