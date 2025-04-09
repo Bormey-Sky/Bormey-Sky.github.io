@@ -67,7 +67,7 @@ onMounted(() => {
 
       <!-- Blue div ledge -->
       <div
-        class="absolute top-[170px] left-16 w-[12rem] h-[5rem] z-10 bg-blue-300"
+        class="absolute top-[170px] left-20 w-[10rem] h-[5rem] z-10 bg-blue-300"
       >
         <!-- Left hand -->
         <div
