@@ -43,13 +43,16 @@ onMounted(() => {
         me
       </div>
       <div class="cols-span-3 md:mt-36 -ml-4 mt-30 mr-10">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum."
+        "I'm a computer science graduate with a focus on AI and research - mostly the kind spoken by humans, 
+        not machines (though I’ve spent plenty of time with both). I also have side passion for web/app development, 
+        and you can pay them a visit in the project section also.
+        <br />
+        <br/>
+        Also has a deep appreciation for animals, slow mornings, and projects that feel like they matter - even just a little. 
+         Just here, building things one piece at a time.
+
+
+        "
       </div>
       <div class="col-span-1 hidden lg:block md:scale-0.5">
         <NuxtImg src="images/portrait.jpeg" class="h-[30rem]" />
@@ -62,12 +65,11 @@ onMounted(() => {
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-[5%] opacity-0'
       "
     >
-      <!-- Face -->
-      <NuxtImg :src="activeFace" class="h-[20rem] " />
+      <NuxtImg :src="activeFace" class="h-[20rem] lg:ml-11" />
 
-      <!-- Blue div ledge -->
+      <!-- Blue div -->
       <div
-        class="absolute top-[170px] left-20 w-[10rem] h-[5rem] z-10 bg-blue-300"
+        class="absolute top-[170px] lg:left-30 left-20 w-[10rem] h-[5rem] z-10 bg-blue-300"
       >
         <!-- Left hand -->
         <div

@@ -11,7 +11,7 @@
     </div>
     <div class="w-full flex justify-center">
       <div
-        class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4"
+        class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 p-4"
       >
 
         <ProjectCard />
@@ -21,10 +21,10 @@
       </div>
     </div>
    
-    <div class="mt-12 -mb-18">
+    <!-- <div class="mt-12 -mb-18">
         <Typewriter phrase="Passion Project" :typo="true" :restart="true"  class="min-h-[10rem] page-title !text-[220%] text-center" />
-    </div>
-    <div class="w-screen overflow-hidden relative">
+    </div> -->
+    <!-- <div class="w-screen overflow-hidden relative">
       <div class="animate-scroll-left-infinite flex gap-4 w-max">
         <PassionProjectCard />
         <PassionProjectCard />
@@ -42,6 +42,6 @@
         <PassionProjectCard />
         <PassionProjectCard />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
