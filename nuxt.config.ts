@@ -16,5 +16,13 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['@nuxt/image'],
+  modules: ['@nuxt/image', '@nuxtjs/sitemap'],
+  app: {
+    head: {
+      meta: [
+        { name: 'og:url', content: 'https://bormeychanchem.com' },
+        { name: 'og:site_name', content: 'Bormey Chanchem Portfolio' },
+      ],
+    },
+  },
 })
