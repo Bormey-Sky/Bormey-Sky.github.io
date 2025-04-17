@@ -111,7 +111,7 @@ const animationKey = ref(0);
   </div>
   <About />
   <Projects />
-  <PassionProject />
+  <!-- <PassionProject /> -->
 
 </template>
 
